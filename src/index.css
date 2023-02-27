@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,299 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* 
+* {
+  box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+
+.squaremy {   background: #000000;
+  height: 100px;
+   width: 100px;
+     } */
+
+
+/* galerii */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+
+.gallery { margin: 5px; border-radius: 50%; min-height: 70px; }
+.profile {
+  border: 3px solid #53c6e014;
+  background-color: #53c6e030;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 10px;
+}
+h1, h2 { margin: 5px; }
+h1 { margin-bottom: 10px; }
+ul { padding: 0px 10px 0px 20px; }
+li { margin: 5px; }
+
+.card {
+  width: fit-content;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background: #fff;
+  
+}
+.card-content {
+  text-align: center;
+}
+.avatar {
+  margin: 10px;
+  border-radius: 50%;
+}
+h1 {
+  margin: 5px;
+  padding: 0;
+  font-size: 24px;
+}
+
+
+
+ul { list-style-type: none; padding: 0px 10px; }
+li {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+img { width: 100px; height: 100px; border-radius: 50%; }
+
+
+
+.avatar { margin: 5px; border-radius: 50%; }
+.panel {
+  border: 1px solid #aaa;
+  background-color: #bec0c0;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 200px;
+}
+.board {
+  background-color: #d7e02c56;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 45px;
+  width: 300px;
+}
+h1 { margin: 5px; font-size: 18px; }
+
+
+.bg-danger {
+  background-color: coral;
+}
+
+.bg-allclear {
+  background-color: rgb(146, 242, 181);
+}
+
+
+.dot {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green {
+   background-color: #33ff00;
+  
+}
+.yellow {
+  background-color: #ffff00;
+}
+.red {
+  background-color: #ff0400;
+}
+
+.text-danger {
+  color:red;
+  font-size:24px;
+}
+
+.text-worning {
+  color:#ffff00;
+  font-size:35px;
+}
+.text-sucsess {
+  color:#33ff00;
+  font-size:24px;
+}
+
+
+
+
+
+.chat, .contact-list {
+  float: left;
+  margin-bottom: 20px;
+}
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li button {
+  width: 100px;
+  padding: 10px;
+  margin-right: 10px;
+}
+textarea {
+  height: 150px;
+}
+
+
+
+
+
+
+button { margin: 5px; }
+li { list-style-type: none; }
+ul, li { margin: 0; padding: 0; }
+
+
+
+body { margin: 0; padding: 0; height: 250px; }
